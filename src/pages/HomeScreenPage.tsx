@@ -1,0 +1,20 @@
+import { Button } from "antd"
+
+const HomeScreenPage = () => {
+    return (
+        <div className="text-center">
+            <h1 className="text-3xl font-bold">Xin chào năm nay sẽ chẳng có câu hỏi nào cả. Chỉ có 1 mini game nho nhỏ cho em chơi chill chill :3 </h1>
+            <h3>Luật chơi thì cũng dễ tìm các điểm liên tiếp là được. Mỗi điểm tương ứng với 500đ </h3>
+            <Button>
+                <a href="/game">Chơi ngay</a>
+            </Button>
+
+            <img
+                src="https://susach.edu.vn/upload/2024/12/meme-meo-chuc-mung-sinh-nhat-003.webp"
+                className="object-cover w-[400px] h-full mx-auto"
+            />
+        </div>
+    )
+}
+
+export default HomeScreenPage
