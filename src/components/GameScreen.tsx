@@ -204,6 +204,7 @@ const GameScreen = () => {
                 ]}
                 title="🎉 Chúc mừng!"
             >
+                <div>Chúc em sinh nhật vui vẻ :3</div>
                 <div>Nhắn số tài khoản cho anh với a không biết số tài khoản của e để chuyển :v</div>
             </Modal>
         </div>
