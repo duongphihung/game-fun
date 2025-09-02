@@ -1,4 +1,5 @@
 import { Button } from "antd"
+import { Link } from "react-router"
 
 const HomeScreenPage = () => {
     return (
@@ -6,7 +7,7 @@ const HomeScreenPage = () => {
             <h1 className="text-3xl font-bold">Xin chào năm nay sẽ chẳng có câu hỏi nào cả. Chỉ có 1 mini game nho nhỏ cho em chơi chill chill :3 </h1>
             <h3>Luật chơi thì cũng dễ tìm các điểm liên tiếp là được. Mỗi điểm tương ứng với 500đ </h3>
             <Button>
-                <a href="/game">Chơi ngay</a>
+                <Link to="/game">Chơi ngay</Link>
             </Button>
 
             <img
