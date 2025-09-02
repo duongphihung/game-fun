@@ -3,7 +3,6 @@ import { Input, Modal } from "antd";
 import GameStatus from "./GameStatus";
 import Point from "./Point";
 import type { Position } from "../models/common";
-import type { NodeJS } from 'node';
 
 const GameScreen = () => {
     const [status, setStatus] = useState("Let's Start");
@@ -17,7 +16,7 @@ const GameScreen = () => {
     const [showWinModal, setShowWinModal] = useState(false);
     const [pointEditable, setPointEditable] = useState(false);
 
-    const holdTimer = useRef<NodeJS.Timeout | null>(null); // giữ timer
+    const holdTimer = useRef<any>(null); // giữ timer
 
     const MAX_TIME = 300; // 5 phút
 
